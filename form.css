@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+    font-family: serif;
+}
+.fl{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.fo {
+    padding: 40px !important;
+    border-radius: 0.3rem;
+    background-color: rgba(37, 37, 37, 0.281);
+}
+body{
+    background-image: url("fancy-pants.jpg");
+}
+button{ border: none!important;
+    background-color: rgb(41, 40, 43) !important;
+}
+.form-control{ border: none !important;
+background-color: rgba(88, 88, 88, 0.219) !important;
+padding-left: 50px !important;
+padding-right: 50px !important;
+}
+input{
+    color: rgb(223, 221, 217) !important;
+}
