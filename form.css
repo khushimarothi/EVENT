@@ -21,8 +21,8 @@ button{ border: none!important;
 }
 .form-control{ border: none !important;
 background-color: rgba(88, 88, 88, 0.219) !important;
-padding-left: 50px !important;
-padding-right: 50px !important;
+padding-left: 10px !important;
+padding-right: 60px !important;
 }
 input{
     color: rgb(223, 221, 217) !important;
