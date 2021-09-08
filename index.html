@@ -25,29 +25,39 @@
 <body >
 
 
-    <div class="text-center mt-4 py-4 " >
-        <h3 class="text-white p-2" >EVENT</h3>
+    <div class="text-center mt-1 py-2 " >
+        <h3 class="text-white p-2" >REGISTRATION-FORM</h3>
     </div>
     <div class="container fl" >
       <div class="row">
-        <form class=" fo" method="post" autocomplete="off" name="EVENT">
-            <div class="mb-3 text-white ">
-                <div class="mb-3 text-white">
+        <form class=" fo col-12" method="post" autocomplete="off" name="EVENT">
+            <div class="mb-2 text-white ">
+                <label for="team name" class="form-label">TEAM NAME</label>
+                <input type="text" name="TEAM NAME" class=" form-control" required>
+                <div class="mb-2 text-white">
                     <label for="EMAIL" class="form-label">EMAIL</label>
                     <input type="email" name="EMAIL" class="form-control" required>
                 </div>
-                <label for="team name" class="form-label">TEAM NAME</label>
-                <input type="text" name="TEAM NAME" class=" form-control" required>
+                <div class="mb-2 text-white">
+                    <label for="phone" class="form-label">PHONE</label>
+                    <input type="number" name="Phone" class="form-control" required>
+                </div>
             </div>
 
-            <div class="mb-3 text-white">
+            <div class="mb-2 text-white">
                 <label for="Name" class="form-label">LEADER NAME</label>
                 <input type="text" name="Name" class="form-control" required>
             </div>
-            <div class="mb-3 text-white">
-                <label for="phone" class="form-label">PHONE</label>
-                <input type="number" name="Phone" class="form-control" required>
+            <div class="mb-2 text-white">
+                <label for="TEAMMATE1" class="form-label">TEAM MATE 1</label>
+                <input type="text" name="TEAMMATE1" class="form-control" required>
             </div>
+         
+            <div class="mb-2 text-white">
+                <label for="TEAMMATE2" class="form-label">TEAM MATE 2</label>
+                <input type="text" name="TEAMMATE2" class="form-control" required>
+            </div>
+         
             <button button type="submit" name="submit" value="Send messsage"
                 class="btn btn-primary mt-2 ">Submit</button>
         </form>
@@ -70,7 +80,7 @@
 
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxyNGpLWclIvlw2XBxdGLsjHIFFw-QTUq9dXJWdVPp6aQQuv9vS2e4PgRWJfatZwcoE/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby3otiBV9iqEypXLMzzipmlhhMQsDtWCgwmm1DpMuqDyFY3DtwIIPuNrcw6HUNVuiZR/exec'
         const form = document.forms['EVENT']
         form.addEventListener('submit', e => {
             e.preventDefault()
