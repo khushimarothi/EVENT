@@ -16,7 +16,7 @@
 body{ 
      background-repeat: no-repeat;
      background-size:cover ; 
-    background-image: url("mishaal-zahed-h4x-Tksufvw-unsplash.jpg");
+    background-image: url("/pawel-czerwinski-kFeQt9yQOdw-unsplash.jpg"); 
 }
 
 .form-control{ border: none !important;
@@ -29,4 +29,10 @@ input{
 }
 button{ border: none!important;
     background-color: rgb(41, 40, 43) !important;
+}
+@media (max-width:911px) {
+    body{
+        background-repeat: repeat-x;
+    }
+    
 }
