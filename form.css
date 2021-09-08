@@ -11,13 +11,14 @@
 .fo {
     padding: 40px !important;
     border-radius: 0.2rem;
-    background-color: rgba(22, 21, 21, 0.694);
+    background-color: rgba(44, 44, 44, 0.395);
 }
 body{ 
      background-repeat: no-repeat;
      background-size:cover ; 
-    background-image: url("/pawel-czerwinski-kFeQt9yQOdw-unsplash.jpg"); 
+    background-image: url("fancy-pants.jpg"); 
 }
+
 
 .form-control{ border: none !important;
 background-color: rgba(171, 171, 171, 0.17) !important;
