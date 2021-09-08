@@ -14,7 +14,7 @@
     background-color: rgba(44, 44, 44, 0.395);
 }
 body{ 
-     /* background-repeat: no-repeat; */
+     background-repeat: repeat;
      background-size:cover ; 
     background-image: url("fancy-pants.jpg"); 
 }
