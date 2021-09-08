@@ -9,21 +9,20 @@
     display: flex;
 }
 .fo {
-    padding: 40px !important;
+    padding: 50px !important;
     border-radius: 0.2rem;
     background-color: rgba(44, 44, 44, 0.395);
 }
 body{ 
      background-repeat:repeat-y;
      background-size:cover ; 
-    background-image: url(basic_bw_2560x1440.png); 
+    background-image: url(trunking_bw_2560x1440.png); 
 }
 
 
 .form-control{ border: none !important;
 background-color: rgba(171, 171, 171, 0.17) !important;
-padding-left: 10px !important;
-padding-right: 60px !important;
+
 }
 input{
     color: rgb(223, 221, 217) !important;
@@ -32,9 +31,22 @@ button{ border: none!important;
     background-color: rgb(41, 40, 43) !important;
 }
 
+label{ 
+    font-size: 16px;
+}
     
 @media (max-width:911px) {
     body{
         background-repeat: repeat-y;
         background-size: cover;
     }
+
+label
+{
+    font-size: 54%;
+}
+
+
+
+
+}

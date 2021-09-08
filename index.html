@@ -10,59 +10,84 @@
     <link rel="stylesheet" href="assets/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <!-- Bootstrap -->
-    
-   
-    
+
+
+
     <!----------------------------Custom CSS----------------->
     <!-- <link rel="stylesheet" href="assets/stylesheet/style.css" type="text/css" /> -->
     <link rel="stylesheet" href="assets/stylesheet/global.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    </head>
-<body >
+</head>
+
+<body>
 
 
-    <div class="text-center mt-1 py-2 " >
-        <h3 class="text-white p-2" >REGISTRATION-FORM</h3>
+    <div class="text-center mt-1 py-2 ">
+        <h3 class="text-white p-2">REGISTRATION-FORM</h3>
     </div>
-    <div class="container fl" >
-      <div class="row">
-        <form class=" fo col-12" method="post" autocomplete="off" name="EVENT">
-            <div class="mb-2 text-white ">
-                <label for="team name" class="form-label">TEAM NAME</label>
-                <input type="text" name="TEAM NAME" class=" form-control" required>
-            
-            </div>
-            <div class="mb-2 text-white">
-                <label for="EMAIL" class="form-label">EMAIL</label>
-                <input type="email" name="EMAIL" class="form-control" required>
-            </div>
-                <div class="mb-2 text-white">
+    <div class=" fl">
+        <div class="container">
+            <form class=" row fo" method="post" autocomplete="off" name="EVENT">
+                <div class="mb-2 col-6 text-white ">
+                    <label for="team name" class="form-label">TEAM NAME</label>
+                    <input type="text" name="TEAM NAME" class=" form-control" required>
+
+                </div>
+
+                <div class="mb-2 col-6 text-white">
+                    <label for="EMAIL" class="form-label">EMAIL</label>
+                    <input type="email" name="EMAIL" class="form-control" required>
+                </div>
+
+
+
+                <div class="mb-4 col-4 text-white">
+                    <label for="Name" class="form-label">LEADER
+                        NAME</label>
+                    <input type="text" name="Name" class="form-control" required>
+                </div>
+                <div class="mb-2 col-4 text-white">
+                    <label for="Name" class="form-label">BRANCH</label>
+                    <input type="text" name="Name" class="form-control" required>
+                </div>
+                <div class="mb-2 col-4 text-white">
+                    <label for="phone" class="form-label">PHONE</label>
+                    <input type="number" name="Phone" class="form-control" required>
+                </div>
+                <div class="mb-2 col-4 text-white">
+                    <label for="TEAMMATE1" class="form-label">MEMBER 1</label>
+                    <input type="text" name="TEAMMATE1" class="form-control" required>
+                </div>
+                <div class="mb-2 col-4 text-white">
+                    <label for="Name" class="form-label">BRANCH</label>
+                    <input type="text" name="Name" class="form-control" required>
+                </div>
+                <div class="mb-2 col-4 text-white">
                     <label for="phone" class="form-label">PHONE</label>
                     <input type="number" name="Phone" class="form-control" required>
                 </div>
 
-            <div class="mb-2 text-white">
-                <label for="Name" class="form-label">LEADER NAME</label>
-                <input type="text" name="Name" class="form-control" required>
-            </div>
-            <div class="mb-2 text-white">
-                <label for="TEAMMATE1" class="form-label">TEAM MATE 1</label>
-                <input type="text" name="TEAMMATE1" class="form-control" required>
-            </div>
-         
-            <div class="mb-2 text-white">
-                <label for="TEAMMATE2" class="form-label">TEAM MATE 2</label>
-                <input type="text" name="TEAMMATE2" class="form-control" required>
-            </div>
-         
-            <button button type="submit" name="submit" value="Send messsage"
-                class="btn btn-primary mt-2 ">Submit</button>
-        </form>
-      </div>
+                <div class="mb-2 col-4  text-white">
+                    <label for="TEAMMATE2" class="form-label">MEMBER 2</label>
+                    <input type="text" name="TEAMMATE2" class="form-control" required>
+                </div>
+                <div class="mb-2 col-4 text-white">
+                    <label for="Name" class="form-label">BRANCH</label>
+                    <input type="text" name="Name" class="form-control" required>
+                </div>
+                <div class="mb-2 col-4 text-white">
+                    <label for="phone" class="form-label">PHONE</label>
+                    <input type="number" name="Phone" class="form-control" required>
+                </div>
+
+                <button button type="submit" name="submit" value="Send messsage"
+                    class="btn btn-primary mt-2 ">Submit</button>
+            </form>
+        </div>
     </div>
 
 
@@ -74,7 +99,7 @@
 
 
     <!-- ------------------------------- -->
-   
+
     <!-- ----------------------------------------------------------------------- -->
 
 
