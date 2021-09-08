@@ -14,9 +14,9 @@
     background-color: rgba(44, 44, 44, 0.395);
 }
 body{ 
-     background-repeat: repeat;
+     background-repeat:repeat-y;
      background-size:cover ; 
-    background-image: url("fancy-pants.jpg"); 
+    background-image: url(simquadrat_bw_2560x1440.png); 
 }
 
 
@@ -31,9 +31,10 @@ input{
 button{ border: none!important;
     background-color: rgb(41, 40, 43) !important;
 }
+
+    
 @media (max-width:911px) {
     body{
-        background-repeat: repeat-x;
+        background-repeat: repeat-y;
+        background-size: cover;
     }
-    
-}
